@@ -1,0 +1,7 @@
+Welcome to Artist Mood Ring! This interactive UI project lets users search their favorite Spotify artists, makes calls to the Spotify API to retrive relevant data, and displays statistics about the artist's music's features.
+
+This project uses a script called bundle.js embedded into index.html. Bundle.js includes sensitive data containing a private API key and secret, so it is not publicly available. Instead, the script app.js is public, which holds all the application functionality and pulls the API key/secret from config.js (config.js is also not public). If you want to run this application, you'll need to create a config.js file in the root of this project that holds a Spotify API key and secret. App.js already references this file. Then, to create bundle.js, you'll need to run "browserify /public/app.js -o bundle.js" in the root of this project. This will create bundle.js in the project root. The Browserify package is necessary for this step. After this, you should have all the files you need to run this project.
+
+To run this project, run "node server" in the root of this project. NodeJS is necessary for this. Then, navigate to localhost:8000 in a browser. Alternatively, index.html can be run with LiveServer.
+
+Please reach out with any problems! Enjoy!

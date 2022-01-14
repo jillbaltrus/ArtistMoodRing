@@ -1,0 +1,60 @@
+
+.amr-title {
+    background: #CF93B1;
+    background: -webkit-linear-gradient(to right, #CF93B1 0%, #D9D68F 25%, #80B7D6 50%, #EDB97E 75%, #8FC2AE 100%);
+    background: -moz-linear-gradient(to right, #CF93B1 0%, #D9D68F 25%, #80B7D6 50%, #EDB97E 75%, #8FC2AE 100%);
+    background: linear-gradient(to right, #CF93B1 0%, #D9D68F 25%, #80B7D6 50%, #EDB97E 75%, #8FC2AE 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 54px;
+}
+
+.page-container {
+    width: 700px;
+}
+
+.results-title {
+    color: #a86b8a;
+}
+
+.btn {
+    background-color: #49b688;
+    border-radius: 30px;
+    width: 160px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: .75px;
+    border: 1px solid #29694f;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #49b688;
+}
+
+#danceability {
+    color: #519440;
+    font-weight: bold;
+}
+
+#euphoria {
+    color: #246d97;
+    font-weight: bold;
+}
+
+#intensity {
+    color: #9e631f;
+    font-weight: bold;
+}
+
+#acousticness {
+    color: #672d88;
+    font-weight: bold;
+}
+
+label {
+    padding-top:5px;
+    font-size: 20px;
+}
